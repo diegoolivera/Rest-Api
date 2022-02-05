@@ -1,0 +1,26 @@
+-protocolo http toda la web se basa en el transferencia de archivos de hypertexto
+arquitectura cliente servidor, peticion respuesta(request-response)
+las peticiones y respuestas tienen un formato, primera linea el status
+el numero 404, headers y el body
+http tiene peticiones put, post,get,delete
+
+-API un servicio expone sus metodos para que los usemos,nos
+conectamos mediante codigo
+
+-REST(respresentational state transfert) conjunto de reglas 
+y restricciones para el intercambio de datos entre sistemas,
+en un unico formato XML o JSON.
+reglas para crear APIS.
+a los datos que recibimos podemos hacerle ciertas operaciones;
+create, restrieve, update, delete,
+las url tienen que tener una convencion de nombres video/api/movie
+
+-API REST 
+*Caracteristicas: 
+    _styles no guarda datos el servidor (no se conocen entre cliente-server)
+    _cacheable podemos guardar consultas frecuentes en cache
+    _hipermedios rest nos da recursos podemos utilizarlos(paguina siguiente etc..)
+
+-APLICACION RESTFUL sigue todas las convenciones de rest,get,put,patch,delete
+
+
